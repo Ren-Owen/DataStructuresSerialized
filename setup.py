@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
 
     description='python data structures(tuple list OrderedDict) serialized',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     url='https://github.com/laodifang/DataStructuresSerialized',
     author='Ren Peng',
     author_email='ithink.ren@gmail.com',
