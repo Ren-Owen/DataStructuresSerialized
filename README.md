@@ -9,14 +9,14 @@ python data structures list serialized and deserialization
     serialized = DataStructuresSerialized(city, separator).getSerializedString()
     print(serialized)
 
-    `DataStructuresSerialized $` China|010|beijing
+    _DataStructuresSerialized $_ China|010|beijing
 
     cityString = "China|010|beijing"
     separator  = '|'
     city       = DataStructuresSerialized(city, separator).getDeserializationStruct()
     print(city)
 
-    `DataStructuresSerialized $` ['China', '10', 'beijing']
+    _DataStructuresSerialized $_ ['China', '10', 'beijing']
 
     cityString = "China|010|beijing"
     separator  = '|'
@@ -29,7 +29,7 @@ python data structures list serialized and deserialization
     
     print(newCityString)
 
-    `DataStructuresSerialized $` China|000|beijing
+    _DataStructuresSerialized $_ China|000|beijing
 
 ## DESCRIPTION
 #### getSerializedString
