@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
 
     description='python data structures(tuple list OrderedDict) serialized',
-    #long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     url='https://github.com/laodifang/DataStructuresSerialized',
     author='Ren Peng',
     author_email='ithink.ren@gmail.com',
@@ -21,7 +21,7 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3 :: Only',
     ],
-    keywords='data structures (tuple list OrderedDict) serialized',
+    keywords='data structures list serialized deserialization',
 
     packages=['tests'],
     py_modules=['DataStructuresSerialized'],
