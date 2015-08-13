@@ -40,14 +40,14 @@ class TestSimple(unittest.TestCase):
     def test_unserialized(self):
         testString    = 'China|10|beijing'
         testSeparator = '|'
-        data          = DataStructuresSerialized(testString, testSeparator).getUnserializedStruct()
+        data          = DataStructuresSerialized(testString, testSeparator).getDeserializationStruct()
 
         self.assertEqual(data, ['China', '10', 'beijing'])
 
     def test_unserializedEmpty(self):
         testString    = ''
         testSeparator = '|'
-        data          = DataStructuresSerialized(testString, testSeparator).getUnserializedStruct()
+        data          = DataStructuresSerialized(testString, testSeparator).getDeserializationStruct()
 
         self.assertEqual(data, None)
 
