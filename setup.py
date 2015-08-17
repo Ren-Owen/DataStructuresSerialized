@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='DataStructuresSerialized',
-    version='0.0.2',
+    version='0.0.3',
 
     description='python data structures(tuple list OrderedDict) serialized',
     long_description=open('README.rst').read(),

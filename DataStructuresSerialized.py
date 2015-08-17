@@ -24,7 +24,7 @@ class DataStructuresSerialized():
         return self.deserializationStruct
 
     def update(self, index, newString):
-        if not index or not newString or not self.deserializationStruct:
+        if index == None or not newString or not self.deserializationStruct:
             return None
 
         for subscript, item in enumerate(self.deserializationStruct):
